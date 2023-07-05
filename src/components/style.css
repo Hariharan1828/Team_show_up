@@ -1,0 +1,20 @@
+.circle-image {
+    clip-path: circle(45px at center);
+    /* adjust the radius value to fit your desired circle size */
+}
+circle,
+line,
+.link-label {
+  transition: opacity 0.5s;
+}
+
+
+/* basic positioning */
+.legend { list-style: none; flex-direction: row-reverse; }
+.legend li { float:right; margin-left: 10px;font-family: Arial; }
+.legend span { border: 1px ;  width: 12px; height: 12px; margin: 2px;  border-radius: 50%;display: inline-block;}
+/* your colors */
+.legend .iCMS-ACO-Registry { background-color: #008F8F; }
+.legend .Engage-RCM { background-color: #EC4F4F; }
+.legend .Both { background-color: #C438E6; }
+.legend .Intern { background-color: #E95392; }
